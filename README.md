@@ -1,8 +1,10 @@
+> ### *此项目停止维护，如需二次开发，请自行 fork*
+
 ## 效果图
 ![](./web.png)
 
 ## 使用流程
-> 详细说明在: https://greycode.top/posts/android-wechat-bak/
+> 详细说明在: https://blog.greycode.top/posts/android-wechat-bak/
 
 1. 手机聊天记录备份到电脑，在有 ROOT 权限的手机上登陆微信，电脑点击备份恢复，把聊天记录恢复到有 ROOT 的手机上。
 2. 收集下面这些数据，然后放在**同一个文件夹下**:
@@ -19,7 +21,6 @@
 6. 运行本程序，打开控制台输出的网址，就可以查看你的聊天记录了。
 
 ### 运行命令
-> 由于程序使用了CGO，所以无法交叉编译上传 Release，所以请自行安装 Go 运行环境然后在本地编译运行。
 
 可以直接运行：
 
@@ -71,7 +72,7 @@ $ docker run --rm -v /Users/zheng/Documents/voice2:/media  greycodee/silkv3-deco
 7. 解压解包后生产的 tar 压缩包，然后从里面可以获取到 DB 等文件（相当于本来要ROOT后才能获取到的这些数据，现在可以直接获取了）
 
 > 我这边通过系统备份然后 bak 文件解包-解压后，文件路径在：apps/com.tencent.mm/r/MicroMsg/ 下，大家可以参考一下
-> 如果通过手机系统自带的备份来获取数据时，解密 DB 的密码可以通过这篇文章的方法一来获取： [获取 DB 解密密码](https://greycode.top/posts/android-wechat-bak/#%E8%8E%B7%E5%8F%96-db-%E8%AE%BF%E9%97%AE%E5%AF%86%E7%A0%81)
+> 如果通过手机系统自带的备份来获取数据时，解密 DB 的密码可以通过这篇文章的方法一来获取： [获取 DB 解密密码](https://blog.greycode.top/posts/android-wechat-bak/#%E8%8E%B7%E5%8F%96-db-%E8%AE%BF%E9%97%AE%E5%AF%86%E7%A0%81)
 
 ## Q&A
 ### 语音和视频所在文件夹
@@ -84,7 +85,3 @@ $ docker run --rm -v /Users/zheng/Documents/voice2:/media  greycodee/silkv3-deco
 
 [![Star History Chart](https://api.star-history.com/svg?repos=greycodee/wechat-backup&type=Date)](https://star-history.com/?utm_source=bestxtools.com#greycodee/wechat-backup&Date)
 
-## 请作者喝个咖啡
-    
-<img src="./alipay.jpg" width = "300"  alt="支付宝" align=left />
- <img src="./wxpay.png" width = "300" alt="微信" align=right />
